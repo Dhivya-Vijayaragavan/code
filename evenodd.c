@@ -1,11 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    int num;
-    scanf("%d",&num);
-    if(num%2==0)
+    long int a;
+    scanf("%ld",&a);
+    if (a%2==0)
+    {
     printf("even");
-    else
-    printf("odd");
+    }
+    else if(a%2==1)
+        {
+         printf("odd");
+    }
+         else
+          {
+              printf("invalid");
+              
+          }
+
     return 0;
 }
+
