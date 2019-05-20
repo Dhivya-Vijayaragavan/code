@@ -1,15 +1,25 @@
-#include <stdio.h>
-
-int main()
+import java.util.*;
+public class positive
 {
-    float num;
-    printf("Enter the Number:");
-    scanf("%f",&num);
-    if(num>0)
-    printf("The Given Number is Positive");
-    else if(num<0)
-    printf("The Given Number is Negative");
-    else
-    printf("The Given Number is Zero");
-    return 0;
+public static void main(String args[])
+{
+float num;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the Number:");
+num=sc.nextFloat();
+if(num>0)
+{
+System.out.println("The Given Number is Positive");
 }
+else if(num<0)
+{
+System.out.println("The Given Number is Negative");
+}
+else
+{
+System.out.println("The Given Number is Zero");
+}
+}
+}
+
+
