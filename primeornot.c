@@ -1,31 +1,27 @@
 #include <stdio.h>
-
 int main()
 {
-    int n,i,flag=0;
-    scanf("%d",&n);
-    for(i=2;i<=n/2;++i)
+    int n, i, flag = 0;
+    scanf("%d", &n);
+    for(i = 2; i <= n/2; ++i)
     {
-        if(n%2==0)
+        if(n%i == 0)
         {
-            flag=1;
+            flag = 1;
             break;
         }
     }
-    if(n==1)
+    if (n == 1) 
     {
-        printf("neither a prime nor a composite");
+      printf("neither a prime nor a composite");
     }
-    else
+    else 
     {
-    if(flag==0)
-    {
-        printf("yes");
+        if (flag == 0)
+          printf("yes");
+        else
+          printf("no");
     }
-    else
-    {
-        printf("no");
-    }
-    }
+    
     return 0;
 }
