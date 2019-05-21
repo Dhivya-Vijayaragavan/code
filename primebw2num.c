@@ -19,7 +19,7 @@ int main()
         
     }
     if(flag==0)
-        printf("%d  ",s);
+        printf("%d ",s);
         ++s;
     }
      return 0;
