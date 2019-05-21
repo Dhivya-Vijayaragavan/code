@@ -9,7 +9,10 @@ int main()
        for(i=start+1;i<end;i++)
    {
        if(i%2==1)
-       printf("  %d",i);
+       {
+       printf(" %d",i);
+       printf(" ");
+       }
    }   
    }
    else
