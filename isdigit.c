@@ -6,7 +6,7 @@ int main()
     scanf("%c",&a);
     if(isdigit(a))
     {
-        printf("yes");
+        printf("Yes");
     }
     else
     {
