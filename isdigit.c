@@ -10,7 +10,7 @@ int main()
     }
     else
     {
-    printf("no");
+    printf("No");
     }
     return 0;
 }
