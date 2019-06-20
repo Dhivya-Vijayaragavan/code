@@ -15,13 +15,6 @@ int main()
           count=count+1;
        }
    }
-   if(count>0)
-   {
-       printf("Yes");
-   }
-   else
-   {
-       printf("No");
-   }
+       printf("%d",count);
     return 0;
 }
