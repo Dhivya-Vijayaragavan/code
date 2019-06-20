@@ -17,11 +17,11 @@ int main()
    }
    if(count>0)
    {
-       printf("Yes");
+       printf("yes");
    }
    else
    {
-       printf("No");
+       printf("no");
    }
     return 0;
 }
